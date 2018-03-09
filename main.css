@@ -1,10 +1,20 @@
-.container{
-  width: 100%;
+html, body {
+  margin: 0;
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+  background-color: #FFF;
+  color: #939393;
 }
 .header {
   background: #20262F;
   padding: 24px 0;
+  position: fixed;
+  display: block;
+  width:100%;
+  margin-bottom: 50px;
 }
 
 #headerLogo {
@@ -12,4 +22,21 @@
   margin: auto;
   height: 31px;
   width: 187px;
+}
+
+.mainBackground {
+  display: block;
+  background-image: url("./images/background.png");
+  height: 1634px;
+  width: 100%;
+  padding: 120px 0 200px !important;
+}
+
+.mainh1 {
+  color: #FFF;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.2;
 }
