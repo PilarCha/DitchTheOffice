@@ -26,10 +26,13 @@ html, body {
 
 .mainBackground {
   display: block;
-  background-image: url("./images/background.png");
-  height: 1634px;
+  background-image: url("./images/background1.png");
   width: 100%;
-  padding: 120px 0 200px !important;
+  height: 500px;
+  padding: 120px 0 140px !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .mainh1 {
@@ -37,6 +40,25 @@ html, body {
   font-weight: 400;
   text-transform: capitalize;
   text-align: center;
-  font-size: 56px;
-  line-height: 1.2;
+  font-size: 29px;
+  line-height: 1.1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mainh1 p {
+  font-size: 25px;
+}
+.searchRow{
+  text-align: center;
+  font-size: 27px;
+  color: #202630 !important;
+  padding: 20px 20px;
+
+}
+.searchCategory{
+  width: 100%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 1281px !important;
 }
